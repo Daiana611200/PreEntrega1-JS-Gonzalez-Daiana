@@ -19,17 +19,21 @@ if(respuesta === "si"){
       alert("Solicite turno");
     }
 
+  /*  esto esta mal
  let entrada = prompt("Ingrese DNI");
     while(entrada != "ESC"){
         let mensaje = `El usuario ingreso ${entrada}`;
         alert(mensaje);
 
        alert("Solicite turno")  
+       break;
       }
-     
+    */ 
+
+         
 
 
-    // solicitud de turnos
+    // solicitud de turnos ... falta
 
     for(let turno = 1; turno <= 5; turno++){
         let nombre = prompt("Ingrese su nombre para asignar un turno");
